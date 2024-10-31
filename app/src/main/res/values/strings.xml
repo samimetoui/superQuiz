@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SuperQuiz2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">BONJOUR</string>
+    <string name="welcome_to_our_quiz">Bienvenue dans le Quiz!</string>
+    <string name="what_is_your_name">Quel est vôtre nom?</string>
+    <string name="start">Démarrer</string>
+    <string name="type_your_name">Entrer vôtre Nom</string>
+    <string name="let_s_play">Let\'s Play</string>
+    <string name="next">Next</string>
+
+</resources>
