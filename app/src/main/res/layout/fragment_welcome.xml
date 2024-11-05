@@ -6,7 +6,7 @@
     android:layout_gravity="center_horizontal"
     android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".ui.welcome.WelcomeFragment">
+    tools:context="com.example.superquizz.ui.welcome.WelcomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
 

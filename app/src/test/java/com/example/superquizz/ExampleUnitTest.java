@@ -1,4 +1,4 @@
-package com.example.superquiz2;
+package com.example.superquizz;
 
 import org.junit.Test;
 

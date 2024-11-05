@@ -1,11 +1,11 @@
-package com.example.superquiz2;
+package com.example.superquizz;
 
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.superquiz2.data.QuestionBank;
-import com.example.superquiz2.data.QuestionRepository;
-import com.example.superquiz2.ui.quiz.QuizViewModel;
+import com.example.superquizz.data.QuestionBank;
+import com.example.superquizz.data.QuestionRepository;
+import com.example.superquizz.ui.quiz.QuizViewModel;
 
 import org.jetbrains.annotations.NotNull;
 

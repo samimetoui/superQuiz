@@ -1,4 +1,4 @@
-package com.example.superquiz2.data;
+package com.example.superquizz.data;
 
 import java.util.Arrays;
 import java.util.List;

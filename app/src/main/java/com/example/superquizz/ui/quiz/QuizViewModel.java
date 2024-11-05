@@ -1,17 +1,19 @@
-package com.example.superquiz2.ui.quiz;
+package com.example.superquizz.ui.quiz;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.example.superquiz2.data.Question;
-import com.example.superquiz2.data.QuestionRepository;
+import com.example.superquizz.data.Question;
+import com.example.superquizz.data.QuestionRepository;
 
 import java.util.List;
 
 public class QuizViewModel extends ViewModel {
+
     private QuestionRepository questionRepository;
     private List<Question> questions;
     private Integer currentQuestionIndex = 0;
+
 
     public QuizViewModel(QuestionRepository questionRepository) {
         this.questionRepository = questionRepository;

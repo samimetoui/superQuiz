@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SuperQuiz2</string>
+    <string name="app_name">SuperQuizz</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">BONJOUR</string>
     <string name="welcome_to_our_quiz">Bienvenue dans le Quiz!</string>

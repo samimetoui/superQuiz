@@ -5,11 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.example.superquizz.MainActivity">
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragment_container_view_tag"
-        android:name="com.example.superquiz2.ui.welcome.WelcomeFragment"
+        android:id="@+id/container"
+        android:name="com.example.superquizz.ui.welcome.WelcomeFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout="@layout/fragment_welcome" />

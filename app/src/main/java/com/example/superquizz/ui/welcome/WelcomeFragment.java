@@ -1,4 +1,4 @@
-package com.example.superquiz2.ui.welcome;
+package com.example.superquizz.ui.welcome;
 
 import android.os.Bundle;
 
@@ -13,11 +13,10 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.util.Log;
 
-import com.example.superquiz2.R;
-import com.example.superquiz2.databinding.FragmentWelcomeBinding;
-import com.example.superquiz2.ui.quiz.QuizFragment;
+import com.example.superquizz.R;
+import com.example.superquizz.databinding.FragmentWelcomeBinding;
+import com.example.superquizz.ui.quiz.QuizFragment;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -65,22 +64,19 @@ public class WelcomeFragment extends Fragment {
 
             @Override
             public void afterTextChanged(Editable s) {
-            boolean isEmpty = s.toString().isEmpty();
-            binding.playButton.setEnabled(!isEmpty);
-
+                boolean isEmpty = s.toString().isEmpty();
+                binding.playButton.setEnabled(!isEmpty);
             }
         });
 
         binding.playButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("Sami","Hello");
-                FragmentManager fm = getParentFragmentManager();
-                FragmentTransaction ft = fm.beginTransaction();
-                QuizFragment qf = new QuizFragment();
-                ft.replace(R.id.fragment_container_view_tag, qf);
-                ft.addToBackStack(null);
-                ft.commit();
+                FragmentManager fragmentManager = getParentFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                QuizFragment quizFragment = QuizFragment.newInstance();
+                fragmentTransaction.add(R.id.container, quizFragment);
+                fragmentTransaction.commit();
             }
         });
 

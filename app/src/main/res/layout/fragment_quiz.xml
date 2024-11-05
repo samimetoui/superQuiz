@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:background="@color/white"
     android:gravity="center_horizontal"
-    tools:context=".ui.quiz.QuizFragment">
+    tools:context="com.example.superquizz.ui.quiz.QuizFragment">
     <TextView
         android:id="@+id/question"
         android:layout_width="match_parent"

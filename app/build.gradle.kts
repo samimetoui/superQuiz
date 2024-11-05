@@ -2,12 +2,14 @@ plugins {
     alias(libs.plugins.android.application)
 }
 
+tasks.register("testClasses")
+
 android {
-    namespace = "com.example.superquiz2"
+    namespace = "com.example.superquizz"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.superquiz2"
+        applicationId = "com.example.superquizz"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -31,7 +33,9 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        dataBinding = true
     }
+
 }
 
 dependencies {
